@@ -1,0 +1,36 @@
+body{
+  text-align: center;
+}
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+    font-family: 'Jeju Gothic', serif;
+    font-size : 30px;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+
+.bt {
+    height:100px;
+    width:500px;
+    background: black; 
+    opacity: 0.8; 
+    color:white;
+    font-size: 30px;
+    font-family: 'Jeju Gothic', serif;
+}
